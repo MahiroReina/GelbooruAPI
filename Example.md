@@ -1,5 +1,5 @@
 ## test.js
-```
+```js
 const APIurl = `https://gelbooru.com/index.php?page=dapi&s=post&q=index&tags=bondage+gag+-rating:explicit+-rating:sensitive&api_key=a6dca2045988ec286c39dff0f2b9448940a346b24cf25fe280f7d07bbb02d9fb&user_id=1171195`
 
 let b = document.getElementById("b");
