@@ -1,5 +1,4 @@
-### 
-test.js
+## test.js
 ```
 const APIurl = `https://gelbooru.com/index.php?page=dapi&s=post&q=index&tags=bondage+gag+-rating:explicit+-rating:sensitive&api_key=a6dca2045988ec286c39dff0f2b9448940a346b24cf25fe280f7d07bbb02d9fb&user_id=1171195`
 
@@ -30,4 +29,20 @@ fetch(APIurl)
         })
         photo.innerHTML = `${img.join("")}`;
     })
+```
+
+## test.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <p id="b">hi</p>
+    <div></div>
+    <script src="test.js"></script>
+</body>
 ```
