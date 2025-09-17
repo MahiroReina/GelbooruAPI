@@ -39,5 +39,6 @@
       "post_locked": 0,
       "has_children": "false"
     }
+  ]
 }
 ```
